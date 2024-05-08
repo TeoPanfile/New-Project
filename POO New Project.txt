@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00   // Specifica versiunea formatului fisierului solutiei Visual Studio
+# Visual Studio Version 17 // Specifica versiunea de Visual Studio.
+VisualStudioVersion = 17.9.34714.143   // Specifică versiunea specifica a Visual Studio utilizata.
+MinimumVisualStudioVersion = 10.0.40219.1   // Specifica versiunea minima a Visual Studio necesara pentru a deschide solutia.
+Proiect("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NewProject", "NewProject\NewProject.vcxproj", "{2FA7E82B-7D41-4FD9-9C2A-98A49DAD5F1F}"   // Defineste un proiect în cadrul solutiei. Include GUID-ul tipului de proiect, numele proiectului, calea fisierului proiectului si un identificator unic.
+EndProject   // Marcheaza sfarsitul definitiei proiectului.
+Global   // Incepe sectiunea globala a fisierului solutiei.
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution   // Defineste platformele de configuratie la nivel de solutie.
+        Debug|x64 = Debug|x64   // Specifica configuratia pentru modul de depanare cu platforma x64.
+        Debug|x86 = Debug|x86   // Specifica configuratia pentru modul de depanare cu platforma x86.
+        Release|x64 = Release|x64   // Specifica configuratia pentru modul de lansare cu platforma x64.
+        Release|x86 = Release|x86   // Specifica configuratia pentru modul de lansare cu platforma x86.
+    EndGlobalSection   // Marchează sfârșitul secțiunii platformelor de configuratie a soluției.
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution   // Defineste platformele de configuratie specifice proiectului.
+        {2FA7E82B-7D41-4FD9-9C2A-98A49DAD5F1F}.Debug|x64.ActiveCfg = Debug|x64   // Specifica configuratia activa pentru modul de depanare cu platforma x64 pentru proiectul specificat.
+        {2FA7E82B-7D41-4FD9-9C2A-98A49DAD5F1F}.Debug|x64.Build.0 = Debug|x64   // Specifica configuratia de constructie pentru modul de depanare cu platforma x64 pentru proiectul specificat.
+        {2FA7E82B-7D41-4FD9-9C2A-98A49DAD5F1F}.Debug|x86.ActiveCfg = Debug|Win32   // Specifica configuratia activa pentru modul de depanare cu platforma x86 pentru proiectul specificat.
+        {2FA7E82B-7D41-4FD9-9C2A-98A49DAD5F1F}.Debug|x86.Build.0 = Debug|Win32   // Specifica configuratia de constructie pentru modul de depanare cu platforma x86 pentru proiectul specificat.
+        {2FA7E82B-7D41-4FD9-9C2A-98A49DAD5F1F}.Release|x64.ActiveCfg = Release|x64   // Specifica configuratia activa pentru modul de lansare cu platforma x64 pentru proiectul specificat.
+        {2FA7E82B-7D41-4FD9-9C2A-98A49DAD5F1F}.Release|x64.Build.0 = Release|x64   // Specifica configuratia de constructie pentru modul de lansare cu platforma x64 pentru proiectul specificat.
+        {2FA7E82B-7D41-4FD9-9C2A-98A49DAD5F1F}.Release|x86.ActiveCfg = Release|Win32   // Specifica configuratia activa pentru modul de lansare cu platforma x86 pentru proiectul specificat.
+        {2FA7E82B-7D41-4FD9-9C2A-98A49DAD5F1F}.Release|x86.Build.0 = Release|Win32   // Specifica configuratia de constructie pentru modul de lansare cu platforma x86 pentru proiectul specificat.
+    EndGlobalSection   // Marchează sfârșitul secțiunii platformelor de configurație a proiectului.
+    GlobalSection(SolutionProperties) = preSolution   // Defineste proprietatile la nivel de solutie.
+        HideSolutionNode = FALSE   // Specifica daca sa se ascunda nodul solutiei în Visual Studio.
+    EndGlobalSection   // Marcheaza sfarsitul secțiunii proprietatilor solutiei.
+    GlobalSection(ExtensibilityGlobals) = postSolution   // Defineste proprietati globale pentru extensibilitate.
+        SolutionGuid = {61C93D55-99AB-45F1-AE65-8EB6E01FCF79}   // Specifica un identificator unic pentru solutie.
+    EndGlobalSection   // Marcheaza sfarsitul sectiunii globale de proprietățati pentru extensibilitate.
+EndGlobal   //  Marcheaza sfarsitul sectiunii globale a fisierului solutiei.
